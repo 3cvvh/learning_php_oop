@@ -19,7 +19,7 @@ public function getlebel(){
 }
 class cetak_info{
     public function cetak(produk $produk){
-        $string = "{$produk->judul} {$produk->getlebel()} (Rp. {$produk->harga})";
+        $string = "{$produk->judul} {$produk->getlebel()} {$produk->getlebel()} (Rp. {$produk->harga})";
         return $string;
     }
 }
@@ -46,3 +46,5 @@ echo 'game:' . $produk2->getlebel();
 echo'<br>';
 $info_cetak = new cetak_info();
 echo $info_cetak->cetak($produk1);
+echo'<br>';
+echo $info_cetak->cetak($produk2);

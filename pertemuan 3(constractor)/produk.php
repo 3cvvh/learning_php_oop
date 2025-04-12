@@ -39,4 +39,3 @@ echo 'komik:' . $produk1->getlebel();
 echo '<br>';
 echo 'game:' . $produk2->getlebel();
 echo'<br>';
-echo 'game:' . $produk3->getlebel();
