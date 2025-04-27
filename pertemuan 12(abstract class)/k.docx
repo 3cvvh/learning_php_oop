@@ -1,0 +1,6 @@
+class abstrak adalah class yang tidak bisa di insiasi,
+class abstrak berfungsi sebagai kerangka dasar dari class turunan nya,
+yang saya pahamai mengenai abstrak class:
+-abstrak class harus mempunyai minimal 1 method abstrak
+-child dari class abstrak harus memiliki method abstrak yang dimiliki oleh parent nya
+-class abstrak berhubungan erat dengan pewarisan
