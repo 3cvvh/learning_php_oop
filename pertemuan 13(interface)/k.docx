@@ -1,0 +1,7 @@
+interface:
+-murni merupakan tamplate untuk class turunan nya
+-tidak bisa di instansiasi
+-tidak boleh memiliki property
+-semua method harus ada di class turnanan nya
+-method interface wajib public
+-1 class bisa mempunyai banyak interface
